@@ -1,0 +1,21 @@
+Types of repositories in Artifactory
+1.local 2.remote 3.virtual 4.distribution
+How to integrate Artifactory to Jenkins
+step 1  install artifactory plugin in Jenkins
+Manage Jenkins=>manage plugins => 
+step 2  add ertifactory server details in jenkins
+manage jenkins=> configure system => artifactory=> add artifactory server
+server id
+url : https://34.7.1.28:8081/artifactory
+username: admin
+pwd: admin_123
+step 3 to create Jenkins Job
+New item=> create free style project=> general=> scm=> build triggers=> build environment
+choose maven3-artifactory integration
+artifactory configuration'
+artifactory server: https://34.7.1.28:8081/artifactory
+target release repository: <target repo>
+=> Build
+choose Invoke artifactory maven3
+select goal
+package
