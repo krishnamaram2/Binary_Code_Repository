@@ -25,3 +25,4 @@ $systemctl start artifactory.service
 $systemctl enable artifactory.service
 
 https://www.centlinux.com/2019/01/install-jfrog-artifactory-on-centos-rhel-7.html
+https://www.theserverside.com/video/4-ways-to-upload-a-JAR-to-a-JFrog-Artifactory-repository#:~:text=1.,JAR%20onto%20the%20deployment%20screen.
