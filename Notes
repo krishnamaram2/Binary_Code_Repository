@@ -19,3 +19,8 @@ target release repository: <target repo>
 choose Invoke artifactory maven3
 select goal
 package
+
+if you get any error as below 
+This build step needs to know where your Maven3 is installed. Please do so from
+
+Then go to Global tool configuration => choose Maven
